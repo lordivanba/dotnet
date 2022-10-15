@@ -1,0 +1,17 @@
+C:\Users\viern\Documents\dotnet\bin\Debug\net6.0\dotnet.exe
+C:\Users\viern\Documents\dotnet\bin\Debug\net6.0\dotnet.deps.json
+C:\Users\viern\Documents\dotnet\bin\Debug\net6.0\dotnet.runtimeconfig.json
+C:\Users\viern\Documents\dotnet\bin\Debug\net6.0\dotnet.dll
+C:\Users\viern\Documents\dotnet\bin\Debug\net6.0\dotnet.pdb
+C:\Users\viern\Documents\dotnet\bin\Debug\net6.0\Spectre.Console.dll
+C:\Users\viern\Documents\dotnet\obj\Debug\net6.0\dotnet.csproj.AssemblyReference.cache
+C:\Users\viern\Documents\dotnet\obj\Debug\net6.0\dotnet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\viern\Documents\dotnet\obj\Debug\net6.0\dotnet.AssemblyInfoInputs.cache
+C:\Users\viern\Documents\dotnet\obj\Debug\net6.0\dotnet.AssemblyInfo.cs
+C:\Users\viern\Documents\dotnet\obj\Debug\net6.0\dotnet.csproj.CoreCompileInputs.cache
+C:\Users\viern\Documents\dotnet\obj\Debug\net6.0\dotnet.csproj.CopyComplete
+C:\Users\viern\Documents\dotnet\obj\Debug\net6.0\dotnet.dll
+C:\Users\viern\Documents\dotnet\obj\Debug\net6.0\refint\dotnet.dll
+C:\Users\viern\Documents\dotnet\obj\Debug\net6.0\dotnet.pdb
+C:\Users\viern\Documents\dotnet\obj\Debug\net6.0\dotnet.genruntimeconfig.cache
+C:\Users\viern\Documents\dotnet\obj\Debug\net6.0\ref\dotnet.dll

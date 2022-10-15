@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "+LWYqaLnaN4pC0+bQaFtoTMuWCBjrlTyFLXiRA8+1QbiRCeDoTQyQDPD07F1POR1Ij4o4BVAPStdkczLDKqK8Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\viern\\Documents\\dotnet\\dotnet.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\viern\\.nuget\\packages\\spectre.console\\0.45.1-preview.0.26\\spectre.console.0.45.1-preview.0.26.nupkg.sha512",
+    "C:\\Users\\viern\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512"
+  ],
+  "logs": []
+}
