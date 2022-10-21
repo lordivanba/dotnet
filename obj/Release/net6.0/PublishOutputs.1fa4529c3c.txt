@@ -1,0 +1,6 @@
+C:\Users\viern\Desktop\dotnet.exe
+C:\Users\viern\Desktop\dotnet.dll
+C:\Users\viern\Desktop\dotnet.deps.json
+C:\Users\viern\Desktop\dotnet.runtimeconfig.json
+C:\Users\viern\Desktop\dotnet.pdb
+C:\Users\viern\Desktop\Spectre.Console.dll

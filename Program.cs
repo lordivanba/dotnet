@@ -12,14 +12,30 @@ while (true)
     var rule = new Rule($"{color}{title}[/]");
 
     AnsiConsole.Write(rule);
-    var option = AnsiConsole.Prompt(
-        new SelectionPrompt<string>()
-            .Title("Selecciona una opción:")
-            .PageSize(10)
-            .AddChoices(new[] {
+    var option = "";
+    if (!String.IsNullOrEmpty(text))
+    {
+        option = AnsiConsole.Prompt(
+                      new SelectionPrompt<string>()
+                          .Title("Selecciona una opción:")
+                          .PageSize(10)
+                          .AddChoices(new[] {
             "Escribe un texto", "Cambiar color del texto", "Borrar texto",
             "Salir"
-            }));
+                          }));
+    }
+    else
+    {
+        option = AnsiConsole.Prompt(
+              new SelectionPrompt<string>()
+                  .Title("Selecciona una opción:")
+                  .PageSize(10)
+                  .AddChoices(new[] {
+            "Escribe un texto", "Cambiar color del texto",
+            "Salir"
+                  }));
+    }
+
 
 
     switch (option)
@@ -110,35 +126,13 @@ while (true)
             break;
         case "Borrar texto":
 
-            if (String.IsNullOrEmpty(text))
-            {
-                var answer = AnsiConsole.Prompt(
-                    new SelectionPrompt<string>()
-                        .Title("No tienes ningún texto ingresado. ¿Deseas ingresar uno?")
-                        .PageSize(10)
-                        .AddChoices(new[] {
-                        "Si", "No",
-                        }));
-
-                if (answer == "Si")
-                {
-                    text = AnsiConsole.Ask<string>("Ingresa el nuevo texto: ");
-                    AnsiConsole.Clear();
-                    title = text;
-                    rule.Title = $"{color}{title}[/]";
-                    break;
-                }
-                else
-                {
-                    AnsiConsole.Clear();
-                }
-            }
-
             AnsiConsole.Clear();
             text = "";
             title = $"{DateTime.Now.TimeOfDay}";
             rule.Title = $"{color}{title}[/]";
             break;
+
+
         case "Salir":
             AnsiConsole.Clear();
             Environment.Exit(0);
